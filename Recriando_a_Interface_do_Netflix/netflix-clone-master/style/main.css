@@ -21,8 +21,7 @@ header .container{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    
+       
 }
 
 header .logo{
@@ -30,6 +29,19 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size:40px;
+}
+
+header .byname{
+    margin-left: 10px;
+    color: var(--vermelho);
+    align-items: baseline;
+    font-size: 20px;
+
+}
+
+header .nave{
+    margin-left: 800px;
+    justify-content: center;
 }
 
 header nav a{
